@@ -6,10 +6,10 @@ A CLI tool that parses HAR (HTTP Archive) data for common web file types and log
 ## Basic Usage
 
 1. Unzip the files anywhere on your system
-2. '$ cd <path-to-harp>'
-3. '$ npm link'
-4. '$ cd <path-to-data>/myCustomHarData.json'
-5. '$ harp --src myCustomHarData.json'
+2. `$ cd <path-to-harp>`
+3. `$ npm link`
+4. `$ cd <path-to-data>/myCustomHarData.json`
+5. `$ harp --src myCustomHarData.json`
 
 By default, if you don't specify a file name the tool will use a sample data file to demonstrate the output. To get 
 your own HAR data you can follow these steps:
@@ -26,30 +26,30 @@ your own HAR data you can follow these steps:
 
 ### src
 
-'$ harp --src data.json'
-'$ harp -s data.json'
+`$ harp --src data.json`
+`$ harp -s data.json`
 
 ### options
 
-'$ harp --options options.json'
-'$ harp -o options.json'
+`$ harp --options options.json`
+`$ harp -o options.json`
 
 ### help
 
-'$ harp --help'
-'$ harp -h'
+`$ harp --help`
+`$ harp -h`
 
 
 ## HARP Options
 
-You can pass an options JSON in order to specify either domains to include or exclude (see harp/samples/options.json).
+You can pass an options JSON in order to specify either domains to include or exclude (see `harp/samples/options.json`).
 
 In some cases it may be preferable to specify include vs exclude (or visa versa) if you have a long list of domains
 you need to include/exclude. Both can be specified but *include will take precedence*.
 
 To load these options, simply place the options.json file in the same directory as your data and run:
 
-'$ harp --src myCustomHarData.json --options myOptions.json
+`$ harp --src myCustomHarData.json --options myOptions.json`
 
 
 ## Supported File Types
