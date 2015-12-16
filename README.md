@@ -26,15 +26,28 @@ your own HAR data you can follow these steps:
 
 ### src
 
+The HAR JSON file you want to parse
+
 `$ harp --src data.json`
 `$ harp -s data.json`
 
 ### options
 
+The options JSON containing domains to include/exclude
+
 `$ harp --options options.json`
 `$ harp -o options.json`
 
+### complex
+
+Determines whether to display a breakdown of extensions for each file type
+
+`$ harp --complex`
+`$ harp -o`
+
 ### help
+
+Shows the help menu
 
 `$ harp --help`
 `$ harp -h`
