@@ -1,0 +1,8 @@
+{
+  "include": [
+    "domain.to.include.com"
+  ],
+  "exclude": [
+    "domain.to.exclude.com"
+  ]
+}
