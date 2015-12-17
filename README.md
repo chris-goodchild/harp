@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/chris-goodchild/harp.svg)](https://travis-ci.org/chris-goodchild/harp)
+[![Dependency Status](https://david-dm.org/chris-goodchild/harp.svg)](https://david-dm.org/chris-goodchild/harp)
+
 # HARP (HTTP Archive Parser)
 
 A CLI tool that parses HAR (HTTP Archive) data for common web file types and logs the results
