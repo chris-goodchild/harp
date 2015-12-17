@@ -19,10 +19,5 @@
   },
   "devDependencies": {
     "standard": "^5.4.1"
-  },
-  "eslintConfig": {
-    "env": {
-      "node": true
-    }
   }
 }
