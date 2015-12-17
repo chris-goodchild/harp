@@ -42,12 +42,12 @@ The options JSON containing domains to include/exclude
 `$ harp --options options.json`
 `$ harp -o options.json`
 
-### complex
+### extensions
 
-Determines whether to display a breakdown of extensions for each file type
+Determines whether to display a breakdown of data for each extension
 
-`$ harp --complex`
-`$ harp -o`
+`$ harp --extensions`
+`$ harp -e`
 
 ### help
 
@@ -75,13 +75,32 @@ The script currently gives a simplistic output of totals for the following file 
 time taken to transfer the data:
 
 - CSS
+-- .css
 - HTML
+-- .html
 - Fonts
+-- .eot
+-- .woff
+-- .ttf
+-- .svg
+-- .otf
 - Images
+-- .gif
+-- .jpg
+-- .png
 - Scripts
+-- .js
 - JSON
+-- .json
 - Audio
+-- .aif
+-- .mpeg
+-- .midi
+-- .mp3
+-- .wav
 - Video
+-- .mov
+-- .mpeg
 
 
 ## Output formats
