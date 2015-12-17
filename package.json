@@ -1,6 +1,6 @@
 {
   "name": "harp",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A CLI tool that parses HAR (HTTP Archive) data for common web file types and logs the results",
   "scripts": {
     "test": "echo \"Error: no test specified - it's on my TODO list :)\" && exit 1",
