@@ -2,15 +2,26 @@
   "name": "harper",
   "version": "1.0.0",
   "description": "A CLI tool that parses HAR (HTTP Archive) data for common web file types and logs the results",
+  "license": "ISC",
+  "preferGlobal": true,
+  "author": {
+    "email": "seegoodchild@gmail.com",
+    "name": "Chris Goodchild",
+    "url": "git://github.com/chris-goodchild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chris-goodchild/harper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chris-goodchild/harper/issues"
+  },
+  "bin": {
+    "harper": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified - it's on my TODO list :)\" && exit 1",
     "lint": "standard"
-  },
-  "author": "Chris Goodchild <seegoodchild@gmail.com>",
-  "license": "ISC",
-  "preferGlobal": true,
-  "bin": {
-    "harper": "index.js"
   },
   "dependencies": {
     "cli-table": "~0.3.1",
