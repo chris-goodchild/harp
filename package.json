@@ -1,6 +1,6 @@
 {
   "name": "harper",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A CLI tool that parses HAR (HTTP Archive) data for common web file types and logs the results",
   "license": "ISC",
   "preferGlobal": true,
