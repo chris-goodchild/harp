@@ -9,6 +9,12 @@
     "name": "Chris Goodchild",
     "url": "git://github.com/chris-goodchild"
   },
+  "keywords": [
+    "har",
+    "http",
+    "archive",
+    "parser"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/chris-goodchild/harper.git"

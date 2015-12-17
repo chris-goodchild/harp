@@ -32,41 +32,61 @@ your own HAR data you can follow these steps:
 
 The HAR JSON file you want to parse
 
-`$ harper --src data.json`
-`$ harper -s data.json`
+```
+$ harper --src data.json
+```
+```
+$ harper -s data.json
+```
 
 ### options
 
 The options JSON containing domains/paths to include/ignore (see "Harper Options JSON")
 
-`$ harper --options options.json`
-`$ harper -o options.json`
+```
+$ harper --options options.json
+```
+```
+$ harper -o options.json
+```
 
 ### extensions
 
 Determines whether to display a breakdown of data for each extension
 
-`$ harper --extensions`
-`$ harper -e`
+```
+$ harper --extensions
+```
+```
+$ harper -e
+```
 
 ### include
 
 One or more space-separated domains/paths to include exclusively 
 
-`$ harper --include http://my.special.domain images/includeImage.png`
+```
+$ harper --include http://my.special.domain images/includeImage.png
+```
 
 ### ignore
 
 One or more space-separated domains/paths to ignore 
 
-`$ harper --ignore http://ignored.cdn.com path-to/ignored.json`
+```
+$ harper --ignore http://ignored.cdn.com path-to/ignored.json
+```
 
 ### help
 
 Shows the help menu
 
-`$ harper --help`
-`$ harper -h`
+```
+$ harper --help
+```
+```
+$ harper -h
+```
 
 
 ## Harper Options JSON
@@ -78,7 +98,9 @@ Note: both include and ignore can be specified but *include will take precedence
 
 To load these options, simply place the options.json file in the same directory as your data and run:
 
-`$ harper --src myCustomHarData.json --options myOptions.json`
+```
+$ harper --src myCustomHarData.json --options myOptions.json
+```
 
 
 ## Supported File Types
@@ -127,5 +149,4 @@ Note: by default, any file output will be created in whichever folder you execut
 
 - Write some tests for value conversions
 - Create alternative output formats (HTML, XML, TXT, etc)
-- Maybe publish to NPM if it's useful enough :)
 
