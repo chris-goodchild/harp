@@ -9,7 +9,6 @@
   "author": "Chris Goodchild <seegoodchild@gmail.com>",
   "license": "ISC",
   "preferGlobal": true,
-  "private": true,
   "bin": {
     "harp": "index.js"
   },
