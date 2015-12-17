@@ -4,7 +4,7 @@
 
 const data = require('./lib/data')
 const parser = require('./lib/parser')
-const outputter = require('./lib/outputter')
+const outputTypes = require('./lib/outputTypes')
 const commandLineArgs = require('command-line-args')
 
 const options = [
@@ -25,7 +25,7 @@ try {
     showHelp()
   } else {
     let results = parser.parse(data.get(userOptions.filename), userOptions)
-    outputter.createOutput(results, userOptions.extensions)
+    outputTypes.console.createOutput(results, userOptions.extensions)
   }
 } catch (e) {
   console.error('\nThe option you specified is not supported!')
