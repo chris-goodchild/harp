@@ -11,7 +11,9 @@ const options = [
   {name: 'help', alias: 'h', type: Boolean, description: 'Display this usage guide.'},
   {name: 'src', alias: 's', type: String, description: 'The HAR JSON input file to process.'},
   {name: 'options', alias: 'o', type: String, description: 'The options JSON file to include/exclude domains.'},
-  {name: 'extensions', alias: 'e', type: Boolean, description: 'Will output stats for individual file extensions.'}
+  {name: 'extensions', alias: 'e', type: Boolean, description: 'Will output stats for individual file extensions.'},
+  {name: 'include', type: String, multiple: true, description: 'One or more space-separated domains/paths to include exclusively'},
+  {name: 'ignore', type: String, multiple: true, description: 'One or more space-separated domains/paths to ignore'}
 ]
 
 const cli = commandLineArgs(options)

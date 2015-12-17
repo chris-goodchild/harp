@@ -37,7 +37,7 @@ The HAR JSON file you want to parse
 
 ### options
 
-The options JSON containing domains to include/exclude
+The options JSON containing domains/paths to include/ignore (see "HARP Options JSON")
 
 `$ harp --options options.json`
 `$ harp -o options.json`
@@ -49,6 +49,18 @@ Determines whether to display a breakdown of data for each extension
 `$ harp --extensions`
 `$ harp -e`
 
+### include
+
+One or more space-separated domains/paths to include exclusively 
+
+`$ harp --include http://my.special.domain images/includeImage.png`
+
+### ignore
+
+One or more space-separated domains/paths to ignore 
+
+`$ harp --ignore http://ignored.cdn.com path-to/ignored.json`
+
 ### help
 
 Shows the help menu
@@ -57,12 +69,12 @@ Shows the help menu
 `$ harp -h`
 
 
-## HARP Options
+## HARP Options JSON
 
-You can pass an options JSON in order to specify either domains to include or exclude (see `harp/samples/options.json`).
+If you have a large number of domains/paths to include or ignore, you can pass a path to an options JSON file in order 
+to specify these strings (see `harp/samples/options.json`).
 
-In some cases it may be preferable to specify include vs exclude (or visa versa) if you have a long list of domains
-you need to include/exclude. Both can be specified but *include will take precedence*.
+Note: both include and ignore can be specified but *include will take precedence*.
 
 To load these options, simply place the options.json file in the same directory as your data and run:
 
