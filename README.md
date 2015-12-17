@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/chris-goodchild/harp.svg)](https://travis-ci.org/chris-goodchild/harp)
 [![Dependency Status](https://david-dm.org/chris-goodchild/harp.svg)](https://david-dm.org/chris-goodchild/harp)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 # HARP (HTTP Archive Parser)
 

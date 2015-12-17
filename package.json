@@ -4,7 +4,7 @@
   "description": "A CLI tool that parses HAR (HTTP Archive) data for common web file types and logs the results",
   "scripts": {
     "test": "echo \"Error: no test specified - it's on my TODO list :)\" && exit 1",
-    "lint": "eslint index.js lib/*.js"
+    "lint": "standard"
   },
   "author": "Chris Goodchild <seegoodchild@gmail.com>",
   "license": "ISC",
@@ -18,7 +18,7 @@
     "command-line-args": "^2.1.3"
   },
   "devDependencies": {
-    "eslint": "^1.10.3"
+    "standard": "^5.4.1"
   },
   "eslintConfig": {
     "env": {
