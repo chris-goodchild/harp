@@ -75,32 +75,32 @@ The script currently gives a simplistic output of totals for the following file 
 time taken to transfer the data:
 
 - CSS
--- .css
+  - .css
 - HTML
--- .html
+  - .html
 - Fonts
--- .eot
--- .woff
--- .ttf
--- .svg
--- .otf
+  - .eot
+  - .woff
+  - .ttf
+  - .svg
+  - .otf
 - Images
--- .gif
--- .jpg
--- .png
+  - .gif
+  - .jpg
+  - .png
 - Scripts
--- .js
+  - .js
 - JSON
--- .json
+  - .json
 - Audio
--- .aif
--- .mpeg
--- .midi
--- .mp3
--- .wav
+  - .aif
+  - .mpeg
+  - .midi
+  - .mp3
+  - .wav
 - Video
--- .mov
--- .mpeg
+  - .mov
+  - .mpeg
 
 
 ## Output formats
