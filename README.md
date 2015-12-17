@@ -117,13 +117,15 @@ time taken to transfer the data:
 
 ## Output formats
 
-By default the script will output results to the console only. Support for other output formats will come in a later 
-version.
+- Command line console
+- JSON
+
+Note: by default, any file output will be created in whichever folder you execute HARP in the format `/.harp/harp.json`
 
 
 ## Roadmap
 
 - Write some tests for value conversions
-- Create alternative output formats (HTML, JSON, XML, TXT, etc)
+- Create alternative output formats (HTML, XML, TXT, etc)
 - Maybe publish to NPM if it's useful enough :)
 

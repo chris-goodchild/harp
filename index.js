@@ -25,7 +25,8 @@ try {
     showHelp()
   } else {
     let results = parser.parse(data.get(userOptions.filename), userOptions)
-    outputTypes.console.createOutput(results, userOptions.extensions)
+    outputTypes.console.createOutput(results, userOptions)
+    outputTypes.json.createOutput(results, userOptions)
   }
 } catch (e) {
   console.error('\nThe option you specified is not supported!')

@@ -18,3 +18,8 @@ node_modules
 # Editor data
 **/.idea/workspace.xml
 **/.idea/tasks.xml
+**/.idea/dictionaries/*.xml
+
+# HARP test output
+**/.harp
+**/harp.json
