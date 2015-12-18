@@ -15,7 +15,7 @@ A CLI tool that parses HAR (HTTP Archive) data for common web file types and log
 4. `$ cd <path-to-data>/myCustomHarData.json`
 5. `$ harper --src myCustomHarData.json`
 
-By default, if you don't specify a file name the tool will use a sample data file to demonstrate the output. To get 
+By default, if you don't specify a file name the tool will use a sample data file to demonstrate the output. To get
 your own HAR data you can follow these steps:
 
 1. Open Chrome
@@ -63,18 +63,18 @@ $ harper -e
 
 ### include
 
-One or more space-separated domains/paths to include exclusively 
+One or more space-separated domains/paths to include exclusively
 
 ```
 $ harper --include http://my.special.domain images/includeImage.png
 ```
 
-### ignore
+### exclude
 
-One or more space-separated domains/paths to ignore 
+One or more space-separated domains/paths to ignore
 
 ```
-$ harper --ignore http://ignored.cdn.com path-to/ignored.json
+$ harper --exclude http://ignored.cdn.com path-to/ignored.json
 ```
 
 ### help
@@ -91,7 +91,7 @@ $ harper -h
 
 ## Harper Options JSON
 
-If you have a large number of domains/paths to include or ignore, you can pass a path to an options JSON file in order 
+If you have a large number of domains/paths to include or ignore, you can pass a path to an options JSON file in order
 to specify these strings (see `harper/samples/options.json`).
 
 Note: both include and ignore can be specified but *include will take precedence*.
@@ -105,7 +105,7 @@ $ harper --src myCustomHarData.json --options myOptions.json
 
 ## Supported File Types
 
-The script currently gives a simplistic output of totals for the following file types, including the downloaded size and 
+The script currently gives a simplistic output of totals for the following file types, including the downloaded size and
 time taken to transfer the data:
 
 - CSS

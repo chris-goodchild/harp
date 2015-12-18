@@ -27,6 +27,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified - it's on my TODO list :)\" && exit 1",
+    "clean": "rimraf .harper",
     "lint": "standard"
   },
   "dependencies": {
@@ -35,6 +36,7 @@
     "mkdirp": "~0.5.1"
   },
   "devDependencies": {
+    "rimraf": "^2.4.4",
     "standard": "^5.4.1"
   }
 }
